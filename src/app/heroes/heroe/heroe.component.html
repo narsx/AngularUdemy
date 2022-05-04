@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>{{nombre}}</h1>
+    <dl>
+        <td>
+            Nombre:
+        </td>
+        <dd>
+            {{nombre}}
+        </dd>
+        <td>
+            Edad:
+        </td>
+        <dd>
+            {{edad}}
+        </dd>
+        <td>
+            Función:
+        </td>
+        <dd>
+            {{obtenerNombre()}}
+        </dd>
+        <td>
+            Capitalizado:
+        </td>
+        <dd>
+            {{nombreCapitalizado}}
+        </dd>
+        </dl>
+        <button (click)="cambiarNombre()">Cambiar Héroe</button>
+        <button (click)="cambiarEdad()">Cambiar edad</button>
+</body>
+
+</html>
